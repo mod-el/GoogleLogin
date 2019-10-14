@@ -1,0 +1,8 @@
+{
+	"name": "GoogleLogin",
+	"description": "Login via Google (install google/apiclient via composer)",
+	"version": "0.0.1",
+	"dependencies": {
+		"Core": ">=2.9.0"
+	}
+}
