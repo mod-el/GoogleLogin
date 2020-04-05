@@ -21,6 +21,15 @@ $config = [
 	}
 
 	/**
+	 * @return bool
+	 */
+	public function makeCache(): bool
+	{
+		if ($this->model->moduleExists('Composer'))
+			$this->model->_Composer->addToJson('google/apiclient');
+	}
+
+	/**
 	 * @return array
 	 */
 	public function getRules(): array
