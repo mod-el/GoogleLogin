@@ -27,6 +27,7 @@ $config = [
 	{
 		if ($this->model->moduleExists('Composer'))
 			$this->model->_Composer->addToJson('google/apiclient');
+		return true;
 	}
 
 	/**
